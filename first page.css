@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    gap: 4px;
+ background-image: url(bg-image.jpg);
+ display: flex;
+
+}
+.first_button {
+    background-color: rgb(23, 146, 136);
+    color: white;
+    width: 170px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 40px;
+    
+    
+  
+
+}
+.first_head {
+    font-size: 5.5rem;
+    margin-right: 2px;
+    margin-bottom: 0.25rem;
+
+}
+
+.next_project {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: white;
+    height: 40vh;
+    font-size: 1.5rem;
+
+
+}
+.second_p {
+    color: grey;
+    font-size:1.3rem;
+}
+
+.second_button {
+    background-color:black;
+    color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+.services {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color:rgb(22, 160, 202) ;
+    height: 50vh;
+    padding-top: 100px;
+}
+
+.service_head {
+    color: orange;
+    font-size: 1.2rem;
+   
+}
+ .service_p {
+    color: white;
+    font-size: 2rem;
+ }
+.icons {
+display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
